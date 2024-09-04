@@ -5,7 +5,7 @@ header{
 }
 
 header .header-items{
-    width: 75%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,13 +20,13 @@ header .header-items{
 }
 
 .header-items a h1{
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .header-items nav ul{
     display: flex;
     flex-direction: row;
-    gap: 45px;
+    gap: 40px;
 }
 
 .header-items nav ul li{
@@ -36,7 +36,7 @@ header .header-items{
 
 .header-items nav ul li a{
     color: #dcdcdc;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     font-weight: 600;
 }
 
