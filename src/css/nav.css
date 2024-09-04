@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(32, 61, 124);
+    width: 100vw;
+    height: 80px;
+}
+
+header .header-items{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    margin: auto;
+}
+
+.header-items a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-items a h1{
+    font-size: 2rem;
+}
+
+.header-items nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.header-items nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-items nav ul li a{
+    color: #dcdcdc;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.header-items nav ul li a:hover{
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+
+
+
+
+
