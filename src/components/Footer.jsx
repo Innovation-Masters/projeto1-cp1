@@ -1,4 +1,5 @@
 import '../css/footer.css'
+import { Link } from 'react-router-dom'
 
 const Footer=()=>{
 
@@ -13,44 +14,26 @@ const Footer=()=>{
                     <div className="footer-info">
                         <ul>
                             <h2>Integrantes</h2>
-                            <li>
-                                <span>Renan Dias Utida</span>
-                            </li>
-                            <li>
-                                <span>Leonardo Rocha</span>
-                            </li>
-                            <li>
-                                <span>Murilo Justi</span>
-                            </li>
-                            <li>
-                                <span>Fabricio Carlos</span>
-                            </li>
-                            <li>
-                                <span>Gustavo Melanda</span>
-                            </li>
+                            <li>Renan Dias Utida</li>
+                            <li>Leonardo Rocha</li>
+                            <li>Murilo Justi</li>
+                            <li>Fabricio Carlos</li>
+                            <li>Gustavo Melanda</li>
                         </ul>
-                        <ul>
+                        <div className='links-rapidos'>
                             <h2>Links Rápidos</h2>
-                            <li>
-                                <span className='link-hover'>Home</span>
-                            </li>
-                            <li>
-                                <span className='link-hover'>Produtos</span>
-                            </li>
-                            <li>
-                                <span className='link-hover'>Sobre</span>
-                            </li>
-                            <li>
-                                <span className='link-hover'>Contato</span>
-                            </li>
-                        </ul>
+                            <Link to="/">Home</Link>
+                            <Link to="/produtos">Produtos</Link>
+                            <Link to="/sobre">Sobre</Link>
+                            <Link to="/contato">Contato</Link>
+                        </div>
                     </div>
                     <div className="footer-logo">
                         <a href="#">Logo</a>
                     </div>
                 </nav>
                 <div className="footer-local">
-                    <p>Av. Paulista, 1234 - 3º andar - Bela Vista, São Paulo - SP, 01311-000</p>
+                    <p>Av. Paulista, 1234 - 3º andar - Bela Vista, São Paulo - SP, 00000-000</p>
                     <div className='phone'>
                         <h3>Telefone: </h3>
                         <p>(11) 91234-5678</p>

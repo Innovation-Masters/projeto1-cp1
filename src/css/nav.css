@@ -23,24 +23,21 @@ header .header-items{
     font-size: 2em;
 }
 
-.header-items nav ul{
+.header-items nav{
     display: flex;
     flex-direction: row;
     gap: 40px;
 }
 
-.header-items nav ul li{
+.header-items nav a{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #dcdcdc;
     text-decoration: none;
     list-style: none;
 }
 
-.header-items nav ul li a{
-    color: #dcdcdc;
-    font-size: 1.1em;
-    font-weight: 600;
-}
-
-.header-items nav ul li a:hover{
+.header-items nav a:hover{
     color: #ffffff;
     transition: 0.2s;
 }

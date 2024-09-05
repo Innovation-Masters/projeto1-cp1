@@ -1,4 +1,5 @@
 import '../css/nav.css'
+import { Link } from 'react-router-dom'
 
 const Nav=()=>{
 
@@ -10,20 +11,10 @@ const Nav=()=>{
                         <h1>Logo</h1>
                     </a>
                     <nav>
-                        <ul>
-                            <li>
-                                <a href="">Home</a>
-                            </li>
-                            <li>
-                                <a href="">Produtos</a>
-                            </li>
-                            <li>
-                                <a href="">Sobre</a>
-                            </li>
-                            <li>
-                                <a href="">Contato</a>
-                            </li>
-                        </ul>
+                        <Link to="/">Home</Link>
+                        <Link to="/produtos">Produtos</Link>
+                        <Link to="/sobre">Sobre</Link>
+                        <Link to="/contato">Contato</Link>
                     </nav>
                 </div>
             </header>
