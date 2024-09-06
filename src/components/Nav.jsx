@@ -5,7 +5,7 @@ const Nav=()=>{
 
     return(
         <header>
-            <h1>Sport Store</h1>
+            <h1>Sport Masters</h1>
                 <nav>
                     <ul>
                         <Link to="/">Home</Link>
