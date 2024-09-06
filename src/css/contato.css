@@ -26,7 +26,7 @@
 .fale-conosco{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -35,7 +35,7 @@
     padding: 35px;
     height: 560px;
     width: 640px; /* Aumenta a largura do bloco */
-    margin: 10px 0 10px auto; /* Centraliza o bloco na tela */
+    margin: 10px 0; /* Centraliza o bloco na tela */
     border-radius: 40px;
     border: 4px solid #a09f9f;
 

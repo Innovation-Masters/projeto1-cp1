@@ -29,7 +29,7 @@ const Footer=()=>{
                         </div>
                     </div>
                     <div className="footer-logo">
-                        <Link to='/'>Logo</Link>
+                        <Link to='/'>Sport Masters</Link>
                     </div>
                 </nav>
                 <div className="footer-local">
