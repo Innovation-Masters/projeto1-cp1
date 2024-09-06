@@ -1,7 +1,7 @@
 .home {
     margin: 0;
     padding: 0;
-    min-height: 1500px;
+    min-height: 1850px;
 }
 
 .home .image-container {
@@ -54,8 +54,6 @@
 .colecao-calcados h2{
     margin: 50px 0 10px 150px;
     font-size: 40px;
-    font-family: "Platypi", serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     color: #010143;
 }
@@ -139,4 +137,42 @@
 #comprar:hover {
     color: white;
     background-color: #030368;
+}
+
+.esporte-geral {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esporte-geral a {
+    margin: 10px 35px;
+    position: relative;
+
+}
+.esporte-geral a img {
+    width: 82vw;
+    min-height: 600px;
+    border-radius: 15px;
+}
+
+.esporte-geral a .conheca {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center;
+    z-index: 1; /* Garante que o texto esteja acima da imagem */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhorar a visibilidade */
+    border-radius: 10px;
+}
+
+.conheca h2{
+    color: white;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
 }

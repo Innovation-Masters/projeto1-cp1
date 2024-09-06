@@ -3,7 +3,8 @@ import Basquete from '../assets/bola-basquete.jpg'
 import AdidasTenis from '../assets/tenis-adidas.jpg'
 import Brasil from '../assets/uniforme-brasil.jpg'
 import BolsaNike from '../assets/bolsa-nike.jpg'
-import { Link } from 'react-router-dom';
+import EsporteGeral from '../assets/esporte-geral.jpg'
+import { Link } from 'react-router-dom'
 import '../css/home.css'
 
 const Home = () => {
@@ -62,6 +63,15 @@ const Home = () => {
                         <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
                     </div>
                 </div>
+            </section>
+            <section className='esporte-geral'>
+                <Link to='/produtos'>
+                    <img src={EsporteGeral} alt="Esporte Geral" />
+                    <div className='conheca'>
+                        <h2>A sua jornada no esporte começa aqui!</h2>
+                        <h2>Venha para a loja que é referência no Brasil.</h2>
+                    </div>
+                </Link>
             </section>
         </main>
     </>
