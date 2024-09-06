@@ -4,21 +4,21 @@ import { Link } from 'react-router-dom'
 const Nav=()=>{
 
     return(
-        <>
-            <header>
-                <div className='header-items'>
-                    <Link to='/'>
-                        <h1>Logo</h1>
-                    </Link>
-                    <nav>
+        <header>
+            <h1>Sport Store</h1>
+                <nav>
+                    <ul>
                         <Link to="/">Home</Link>
                         <Link to="/produtos">Produtos</Link>
                         <Link to="/sobre">Sobre</Link>
+                    </ul>
+                    <div>
+                        <img src="../src/assets/heart.png" alt="icone de itens favoritos" />
+                        <img src="../src/assets/user.png" alt="icone para acesso ao perfil" />
                         <Link to="/contato">Contato</Link>
-                    </nav>
-                </div>
-            </header>
-        </>
+                    </div>
+                </nav>
+        </header>
     )        
 }
 
