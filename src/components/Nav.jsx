@@ -7,9 +7,9 @@ const Nav=()=>{
         <>
             <header>
                 <div className='header-items'>
-                    <a href="#">
+                    <Link to='/'>
                         <h1>Logo</h1>
-                    </a>
+                    </Link>
                     <nav>
                         <Link to="/">Home</Link>
                         <Link to="/produtos">Produtos</Link>

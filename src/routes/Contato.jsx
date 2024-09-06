@@ -4,7 +4,7 @@ const Contato=()=>{
 
     return(
         <>
-            <main>
+            <main className='contato'>
                 <div className='titulo'>
                     <h2>Quer falar com a gente?</h2>
                     <p>Entre em contato conosco pelo formulário abaixo para podermos conversar!</p>
@@ -34,7 +34,7 @@ const Contato=()=>{
                         </form>
                     </section>
                     <section className='localizacao'>
-                        <h3>Localização</h3>
+                        <h3>Informações de Contato</h3>
                         <p><strong>Localização: </strong> Av. Paulista, 1234 - São Paulo - SP.</p>
                         <p><strong>Horário de funcionamento: </strong> Todos os dias das 9h às 20h</p>
                         <p><strong>Telefone: </strong> (11) 9999-9999</p>

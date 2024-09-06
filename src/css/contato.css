@@ -1,22 +1,22 @@
-main{
+.contato{
     min-height: 750px;
     padding: 30px 40px;
 }
 
-main .titulo{
+.contato .titulo{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main .titulo h2{
+.contato .titulo h2{
     font-size: 2.4em;
     font-style: italic;
     color: #0084ff;
     margin-bottom: .3em;
 }
 
-main .titulo p{
+.contato .titulo p{
     font-size: 20px;
     font-style: italic;
     color: black;
@@ -121,7 +121,7 @@ main .titulo p{
 
 .localizacao h3{
     font-size: 2.2em;
-    margin: 15px 5px 18px;
+    margin: 15px 5px 18px 5px;
     text-align: center;
 }
 
