@@ -23,11 +23,11 @@ const Produtos=()=>{
 
     return(
         <>
-        <main className = "produtos">
-            <h1>Produtos</h1>
-            <br></br>
-            <p>Descubra o melhor em equipamentos, roupas e acessórios esportivos. Se você busca qualidade e inovação para melhorar seu desempenho, temos tudo o que você precisa. Explore nossa seleção e atinja seus objetivos com confiança!</p>
-        </main>
+            <main className = "produtos">
+                <h1>Conheça nossos produtos</h1>
+                <br></br>
+                <p>Descubra o melhor em equipamentos, roupas e acessórios esportivos. Se você busca qualidade e inovação para melhorar seu desempenho, temos tudo o que você precisa. Explore nossa seleção e atinja seus objetivos com confiança!</p>
+            </main>
 
         <div className='card'>
             <img src= {Basquete} alt="" />
