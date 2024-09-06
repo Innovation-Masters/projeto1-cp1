@@ -31,20 +31,20 @@ const Produtos=()=>{
 
         <div className='card'>
             <img src= {Basquete} alt="" />
-            <h2></h2>
-            <p></p>
+            <h2>Bola de Basquete - NBA Authentic Wilson</h2>
+            <p>R$ 299,99 à vista</p>
         </div>
 
         <div className='card'>
             <img src={AdidasTenis} alt="" />
-            <h2></h2>
-            <p></p>
+            <h2>Tênis Adidas UltraBoost 23 Light - Preto</h2>
+            <p>R$ 699,99 à vista</p>
         </div>
 
         <div className='card'>
             <img src={Brasil} alt="" />
-            <h2></h2>
-            <p></p>
+            <h2>Camisa Nike Brasil I - 2022/2023 - Torcedor</h2>
+            <p>R$ 199,99 no Pix (-33%)</p>
         </div>
 
         <div className='card'>
