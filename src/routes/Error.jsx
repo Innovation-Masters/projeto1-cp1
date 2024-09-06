@@ -1,10 +1,11 @@
+import '../css/error.css'
 
 const Error=()=>{
 
     return(
-        <>
-            <h1>404- Page Not Found !!!</h1>
-        </>
+        <main className="error">
+            <h2>Error 404</h2>
+        </main>
     )
 }
 
