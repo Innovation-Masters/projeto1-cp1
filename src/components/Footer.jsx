@@ -7,7 +7,7 @@ const Footer=()=>{
         <>
             <footer>
                 <div className="footer-direitos">
-                    <p>Nome da Empresa - Checkpoint 4</p>
+                    <p>Sport Masters - Checkpoint 4</p>
                     <p>Innovation Masters - @2024-Todos os direitos reservados</p>
                 </div>
                 <nav>

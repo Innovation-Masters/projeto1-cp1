@@ -5,7 +5,7 @@ footer{
     width: 100vw;
     min-height: 480px;
     padding: 25px 0;
-    background-color: #0d0820;
+    background-color: #0f0b1d;
 }
 
 footer .footer-direitos{
@@ -17,9 +17,10 @@ footer .footer-direitos{
 }
 
 .footer-direitos p{
-    color: white;
+    color: #dcdcdc;
     line-height: 40px;
     font-size: 1.3em;
+    font-weight: bold;
 }
 
 footer nav{
@@ -40,16 +41,17 @@ nav .footer-info{
 }
 
 .footer-info ul h2{
-    color: gray;
+    color: tomato;
     font-size: 1.4em;
     margin-bottom: 0.5em;
 }
 
 .footer-info ul li{
     display: list-item;
-    color: white;
+    color: #dcdcdc;
     font-size: 1em;
     padding: 2px;
+    font-weight: 600;
     line-height: 1.5em;
     list-style: none;
 }
@@ -61,7 +63,7 @@ nav .footer-info{
 }
 
 .footer-info .links-rapidos h2{
-    color: gray;
+    color: tomato;
     font-size: 1.4em;
     margin-bottom: 0.5em;
 }
@@ -69,28 +71,28 @@ nav .footer-info{
 .links-rapidos a{
     display: block;
     padding: 2px;
-    color: white;
+    color: #dcdcdc;
     font-size: 1em;
+    font-weight: 600;
     line-height: 1.5em;
     list-style: none;
     text-decoration: none;
 }
 
 .footer-info .links-rapidos a:hover{
-    color: #203d7c;
+    color: #fb8b77;
     transition: 0.2s;
 }
 
 nav .footer-logo{
     flex-grow: 1;
+    margin: 40px 0px 0px 10px;
 }
 
 nav .footer-logo a{
     color: white;
     font-weight: 800;
     font-size: 2em;
-    width: 100px;
-    height: 100px;
     text-decoration: none;
 }
 
@@ -103,8 +105,9 @@ footer .footer-local{
 }
 
 .footer-local p{
-    color: white;
+    color: #dcdcdc;
     line-height: 38px;
+    font-weight: 600;
     font-size: 1.0em;
 }
 
@@ -116,12 +119,12 @@ footer .footer-local{
 }
 
 .footer-local .phone h3{
-    color: gray;
+    color: tomato;
     font-size: 1.1em;
     padding-right: 10px;
 }
 
 .footer-local .phone p{
-    color: white;
+    color: #dcdcdc;
     font-size: 1.0em;
 }
