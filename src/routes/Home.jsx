@@ -67,11 +67,11 @@ const Home = () => {
             <section className='esporte-geral'>
                 <Link to='/produtos'>
                     <img src={EsporteGeral} alt="Esporte Geral" />
-                    <div className='conheca'>
-                        <h2>A sua jornada no esporte começa aqui!</h2>
-                        <h2>Venha para a loja que é referência no Brasil.</h2>
-                    </div>
                 </Link>
+                <div className='conheca'>
+                    <h2>A sua jornada no esporte começa aqui!</h2>
+                    <h2>Venha para a loja que é referência no Brasil.</h2>
+                </div>
             </section>
         </main>
     </>
