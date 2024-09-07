@@ -1,6 +1,7 @@
 .produtos{
     padding: 40px 60px;
     background-color: #f0f0f0;
+    margin-top: 90px;
 }
 
 .produtos .conheca-prod{
@@ -10,11 +11,11 @@
 }
 
 .conheca-prod h1{
-    font-size: 2.4em;
+    font-size: 2.8em;
     font-style: italic;
     font-weight: bold;
     color: tomato;
-    margin-bottom: .3em;
+    margin-bottom: 0.8em;
 }
 
 .conheca-prod p{
@@ -23,14 +24,13 @@
     text-indent: 60px;
     text-align: justify;
     color: black;
-    margin-bottom: 40px;
 }
 
 .produtos .subtitulo-prod{
-    margin: 50px 0 10px 150px;
-    font-size: 40px;
+    margin: 50px 0px 5px 30px;
+    font-size: 1.6em;
     font-weight: 600;
-    color: #010143;
+    color: rgb(249, 120, 97);
 }
 
 /* Estilos comuns para os cards */
@@ -42,17 +42,17 @@
 .secao .secao-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
 }
 
 .card-produto {
-	background-color: #dfdfdf;
+	background-color: #dedede;
 	border-radius: 15px;
     box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
 	padding: 20px;
-	margin: 15px;
-	width: 290px;
+	margin: 15px 15px 28px 15px;
+	width: 300px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -75,7 +75,7 @@
 .card-produto p {
     font-family: helvetica;
 	font-size: 18px;
-	line-height: 1.5;
+	line-height: 1.5em;
 	margin-bottom: 20px;
 }
 
@@ -94,7 +94,6 @@
 
 #comprar-produto{
     font-size: 1em;
-    font-family: "Platypi", serif;
     font-weight: bold;
     margin-top: 14px;
 

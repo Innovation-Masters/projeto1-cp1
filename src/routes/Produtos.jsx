@@ -41,7 +41,7 @@ const Produtos=()=>{
                             <h3>Bola Futebol Americano All-Field 3.0</h3>
                             <p>Bolas</p>
                             <h4>R$ 189,99 à vista</h4>
-                            <Link to='/produtos'><button id="comprar-produto">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 2 */}
@@ -50,7 +50,7 @@ const Produtos=()=>{
                             <h3>Bola Tênis Championship Wilson - 3 unidades</h3>
                             <p>Bolas</p>
                             <h4>R$ 69,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 3 -->*/}
@@ -59,7 +59,7 @@ const Produtos=()=>{
                             <h3>Bola de Futebol Adidas Euro 2024 - Branco</h3>
                             <p>Bolas</p>
                             <h4>R$ 239,90 no Pix</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 4 */}
@@ -68,7 +68,7 @@ const Produtos=()=>{
                             <h3>Bola de Basquete NBA Authentic - Wilson</h3>
                             <p>Bolas</p>
                             <h4>R$ 299,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
                     </div>
                 </section>
@@ -85,7 +85,7 @@ const Produtos=()=>{
                             <h3>Tênis Nike Dunk Low Black</h3>
                             <p>Tênis</p>
                             <h4>R$ 749,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 2 */}
@@ -94,7 +94,7 @@ const Produtos=()=>{
                             <h3>Tênis Adidas UltraBoost 23 - Preto</h3>
                             <p>Tênis</p>
                             <h4>R$ 699,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 3 -->*/}
@@ -102,8 +102,8 @@ const Produtos=()=>{
                             <img decoding="async" src={TenisRevolution} alt="Camisa Nike Brasil I 2022"/>
                             <h3>Tenis Nike Revolution 6 Black</h3>
                             <p>Tênis</p>
-                            <h4>R$ 299,90</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <h4>R$ 299,90 à vista</h4>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 4 */}
@@ -112,7 +112,7 @@ const Produtos=()=>{
                             <h3>Tênis Adidas NMD_R1 - Preto</h3>
                             <p>Tênis</p>
                             <h4>R$ 519,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
                     </div>
                 </section>
@@ -129,7 +129,7 @@ const Produtos=()=>{
                             <h3>Adidas Camisa 1 Arsenal 2024/25</h3>
                             <p>Camisa de Time</p>
                             <h4>R$ 349,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 2 */}
@@ -138,16 +138,16 @@ const Produtos=()=>{
                             <h3>Camisa Barcelona I 22/23 Torcedor - Nike</h3>
                             <p>Camisa de TIme</p>
                             <h4>R$ 249,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 3 -->*/}
                         <div className="card-produto">
                             <img decoding="async" src={CamisaReal} alt="Bolsa Nike Brasilia"/>
-                            <h3>Adidas Camisa 1 Real MAdrid 24/25</h3>
+                            <h3>Adidas Camisa 1 Real Madrid 24/25</h3>
                             <p>Camisa de Time</p>
                             <h4>R$ 349,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 4 */}
@@ -156,7 +156,7 @@ const Produtos=()=>{
                             <h3>Camisa Nike Brasil I 2022/23 - Torcedor</h3>
                             <p>Camisa de Time</p>
                             <h4>R$ 199,99 no Pix (-33%)</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
                     </div>
                 </section>
@@ -173,7 +173,7 @@ const Produtos=()=>{
                             <h3>Luva Adidas Predator Accuracy Pro Own - Futebol</h3>
                             <p>Acessórios</p>
                             <h4>R$ 269,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 2 */}
@@ -182,7 +182,7 @@ const Produtos=()=>{
                             <h3>Máscara Óculos Mergulho Snorkel Vidro Temperado</h3>
                             <p>Acessórios</p>
                             <h4>R$ 79,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 3 -->*/}
@@ -191,7 +191,7 @@ const Produtos=()=>{
                             <h3>Garrafa Esportiva Gatorade Cinza - 900mL</h3>
                             <p>Acessórios</p>
                             <h4>R$ 229,90 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
 
                         {/* Card 4 */}
@@ -200,7 +200,7 @@ const Produtos=()=>{
                             <h3>Bolsa Nike Brasilia Unissex</h3>
                             <p>Acessórios</p>
                             <h4>R$ 189,99 à vista</h4>
-                            <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
+                            <Link to='/produtos'><button id="comprar-produto">Comprar</button></Link>
                         </div>
                     </div>
                 </section>

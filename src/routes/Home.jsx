@@ -14,7 +14,7 @@ const Home = () => {
             <section className='image-container'>
                 <img src={Atletas} alt="Imagem Atletas" />
                 <div className="text-overlay">
-                    <h2>Conforto e desempenho para atletas de todos os níveis. <br /> Explore agora nossos produtos!</h2>
+                    <h1>Conforto e desempenho para atletas de todos os níveis. <br /> Explore agora nossos produtos!</h1>
                     <Link to='/produtos'>
                         <button className='btn'>Ver Produtos</button>
                     </Link>
@@ -22,7 +22,7 @@ const Home = () => {
             </section>
 
             <div class="colecao-calcados">
-                <h2>OS POPULARES DA LOJA</h2>
+                <h2>Os Populares da Sport Masters</h2>
             </div>
             {/*Seção com cards -->*/}
             <section class="secao4">
@@ -65,13 +65,13 @@ const Home = () => {
                 </div>
             </section>
             <section className='esporte-geral'>
-                <Link to='/produtos'>
+                <Link to='/sobre'>
                     <img src={EsporteGeral} alt="Esporte Geral" />
+                    <div className='jornada'>
+                        <h2>A sua jornada no esporte começa aqui!</h2>
+                        <h2>Conheça um pouco da loja que é referência no Brasil.</h2>
+                    </div>
                 </Link>
-                <div className='conheca'>
-                    <h2>A sua jornada no esporte começa aqui!</h2>
-                    <h2>Venha para a loja que é referência no Brasil.</h2>
-                </div>
             </section>
         </main>
     </>

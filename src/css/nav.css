@@ -2,11 +2,17 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1em 0;
-  
+    padding: 1em 0;
+    margin: 0;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000; 
+
     h1 {
       font-weight: 800;
-      font-size: 3em;
+      font-size: 2.4em;
     }
   
     nav {
@@ -20,7 +26,7 @@ header {
         list-style: none;
   
           a {
-            font-size: 1em;
+            font-size: 1.1em;
             font-weight: 600;
             color: black;
             transition: all .4s;
@@ -28,7 +34,7 @@ header {
           }
   
           a:hover {
-            opacity: 0.6;
+            color: #fb8b77;
           }
       }
   
@@ -38,13 +44,13 @@ header {
         column-gap: 1em;
   
         img {
-          width: 1.9em;
+          width: 1.8em;
           cursor: pointer;
           transition: all .4s;
         }
   
         img:hover {
-          opacity: 0.6;
+          opacity: 0.5;
         }
     
         a {

@@ -6,13 +6,13 @@ const Contato=()=>{
         <>
             <main className='contato'>
                 <div className='titulo'>
-                    <h2>Quer falar com a gente?</h2>
+                    <h1>Quer falar com a gente?</h1>
                     <p>Entre em contato conosco pelo formulário abaixo para podermos conversar!</p>
                 </div>
                 <div className="fale-conosco">
                     <section className='form-contato'>
                         <form>
-                            <h3>Formulário de Contato</h3>
+                            <h2>Formulário de Contato</h2>
 
                             <div className="info">
                                 <label htmlFor="username">Nome:</label>
@@ -34,7 +34,7 @@ const Contato=()=>{
                         </form>
                     </section>
                     <section className='localizacao'>
-                        <h3>Informações de Contato</h3>
+                        <h2>Informações de Contato</h2>
                         <p><strong>Localização: </strong> Av. Paulista, 1234 - São Paulo - SP.</p>
                         <p><strong>Horário de funcionamento: </strong> Todos os dias das 9h às 20h</p>
                         <p><strong>Telefone: </strong> (11) 9999-9999</p>

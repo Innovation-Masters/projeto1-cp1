@@ -24,7 +24,7 @@ footer .footer-direitos{
 }
 
 footer nav{
-    margin: 15px 22%;
+    margin: 15px 19%;
     display: flex;
     max-width: 1170px;
 }
@@ -57,7 +57,7 @@ nav .footer-info{
 }
 
 .footer-info .links-rapidos{
-    padding: 0 15px;
+    margin: 0 15px 0 35px;
     flex: 1 0;
     display: list-item;
 }

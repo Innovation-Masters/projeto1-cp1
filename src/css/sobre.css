@@ -1,9 +1,10 @@
 .sobre{
     padding: 40px 60px;
     background-color: #f0f0f0;
+    margin-top: 90px;
 }
 
-.sobre h2{
+.sobre h1{
     font-size: 2.8em;
     font-weight: bold;
     font-style: italic;
