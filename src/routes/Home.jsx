@@ -1,6 +1,6 @@
 import Atletas from '../assets/atletas.jpg'
 import Basquete from '../assets/bola-basquete.jpg'
-import AdidasTenis from '../assets/tenis-adidas.jpg'
+import AdidasTenis from '../assets/tenis-ultraboost.jpg'
 import Brasil from '../assets/uniforme-brasil.jpg'
 import BolsaNike from '../assets/bolsa-nike.jpg'
 import EsporteGeral from '../assets/esporte-geral.jpg'
@@ -32,7 +32,7 @@ const Home = () => {
                         <img decoding="async" src={Basquete} alt="Bola de Basquete Wilson" />
                         <h3>Bola de Basquete NBA Authentic - Wilson</h3>
                         <p>Bolas</p>
-                        <h4>R$ 299,99 à vista</h4>
+                        <h4>R$ 299,90 à vista</h4>
                         <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
                     </div>
 
@@ -41,7 +41,7 @@ const Home = () => {
                         <img decoding="async" src={AdidasTenis} alt="Adidas UltraBoost 23" />
                         <h3>Tênis Adidas UltraBoost 23 Light - Preto</h3>
                         <p>Tênis</p>
-                        <h4>R$ 699,99 à vista</h4>
+                        <h4>R$ 699,90 à vista</h4>
                         <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
                     </div>
 
@@ -50,7 +50,7 @@ const Home = () => {
                         <img decoding="async" src={Brasil} alt="Camisa Nike Brasil I 2022"/>
                         <h3>Camisa Nike Brasil I 2022/23 - Torcedor</h3>
                         <p>Camisa de Time</p>
-                        <h4>R$ 199,99 no Pix (-33%)</h4>
+                        <h4>R$ 199,90 no Pix (-33%)</h4>
                         <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
                     </div>
 
@@ -59,7 +59,7 @@ const Home = () => {
                         <img decoding="async" src={BolsaNike} alt="Bolsa Nike Brasilia"/>
                         <h3>Bolsa Nike Brasilia Unissex</h3>
                         <p>Acessórios</p>
-                        <h4>R$ 189,99 à vista</h4>
+                        <h4>R$ 189,90 à vista</h4>
                         <Link to='/produtos'><button id="comprar">Saiba Mais</button></Link>
                     </div>
                 </div>
