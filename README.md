@@ -20,8 +20,8 @@ Esse projeto foi desenvolvido para a disciplina de **Web Development** no segund
 
 ## Desenvolvedores:
 
-Renan Dias Utida - RM 558540; <br>
-Murilo Justi Rodrigues - RM 554512; <br>
-Leonardo Scarpitta - RM 555460; <br>
-Fabrício Carlos Duarte - RM 555017; <br>
-Gustavo Melanda - RM 556081;
+Renan Dias Utida <br>
+Murilo Justi Rodrigues <br>
+Leonardo Scarpitta <br>
+Fabrício Carlos Duarte <br>
+Gustavo Melanda
