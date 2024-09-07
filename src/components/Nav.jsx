@@ -5,7 +5,7 @@ const Nav=()=>{
 
     return(
         <header>
-            <h1>Sport Masters</h1>
+            <Link to='/' className='link-logo'>Sport Masters</Link>
                 <nav>
                     <ul>
                         <Link to="/">Home</Link>
